@@ -9,4 +9,4 @@ Neste projeto você terá acesso à informações sobre mim e alguns de meus out
 <br>
 Caso queira entrar em contato comigo, sinta-se à vontade para enviar um e-mail para <b>jlz.dev@outlook.com</b><br>
 <br>
-Link para o portfólio: 
+Link para o portfólio: https://jlzferreira.github.io/portfolio/ 

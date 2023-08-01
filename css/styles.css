@@ -134,13 +134,6 @@ h1 {
 
 /* ABOUT ME */
 
- /* .about-me-banner {
-    height: 40vh;
-    background-image:  url("../img/about-img.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}  */
-
 #about-me {
     background-color: var(--tertiary);
     padding:  2em;
@@ -298,4 +291,68 @@ footer p{
 
 .social a:hover {
     color: var(--tertiary);
+}
+
+/* Mobile */
+@media (max-width: 450px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    /* INTRODUCTION SECTION */
+    .introduction-name{
+        font-size: 1.8em;
+    }
+
+    .introduction-sub {
+        font-size: .8em;
+    }
+
+    .see-more {
+        font-size: .7em;
+    }
+
+    /* ABOUT SECTION */
+    .about-content{
+        flex-direction: column;
+    }
+
+    .about-text {
+        font-size: 1em;
+    }
+
+    .btn-cv a {
+        justify-content: center;
+        width: auto;
+    }
+
+    .btn-cv a .fa-solid {
+        display: none;
+    }
+
+    /* PROJECTS */
+    .project {
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .project-img {
+        width: 100%;
+    }
+
+    .project-description {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    /* footer */
+    footer p {
+        margin-bottom: .2em;
+    }
+
+    .social {
+        padding-bottom: .2em;
+    }
+
 }
